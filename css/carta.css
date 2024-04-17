@@ -1,0 +1,159 @@
+body{
+    background: #7a4991;
+}
+.menu{
+    position: absolute;
+    top: 0px;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+h1{
+    position: relative;
+    margin: -927px 0 0 18px;
+}
+
+
+.menu .navbar ul li a{
+    font-size: 19px;
+    padding: 22px;
+    color: #c39cd3;
+    display: block;
+    font-weight: bold;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center; 
+    height: 100vh;
+}
+.container_carta{
+    position: relative;
+}
+.cover{
+    position: absolute;
+    border-left: 200px solid transparent;
+    border-right: 200px solid transparent;
+    border-top: 150px solid;
+    border-bottom: 100px solid transparent;
+    transition: transform .75s;
+    transform-origin: top;
+    color: #f18b8b;
+}
+.papel{
+    position: absolute;
+    padding: 1.5rem;
+    line-height: 2rem;
+    right: 5px;
+    z-index: -1;
+    background: white;
+    width: 390px;
+    height: 200px;
+    transition: all .75s;
+}
+.carta{
+    border-left: 200px solid #fdb0b0;
+    border-right: 200px solid #fdb0b0;
+    border-top: 100px solid transparent;
+    border-bottom: 100px solid #f79b9b;
+}
+.opcion{
+    display: flex;
+    gap: 5rem;
+    & button{
+        color: #fdb0b0;
+        font-weight: 600;
+        border-radius: 3px;
+        background: #fe3334;
+        cursor: pointer;
+        width: 100px;
+        height: 20px;
+        
+    }
+    & button:hover{
+        background: #e47bc4;
+        color: rgb(177, 96, 96);
+
+    }
+}
+.open-cover{
+    transform: rotateX(180deg);
+}
+.open-papel{
+    animation: openPapel .5s forwards;
+}
+@keyframes openPapel{
+    0%{
+        top: 0;
+    }
+    100%{
+        top: -120px;
+    }
+}
+.close-papel{
+    animation: closepapel .5s forwards;
+}
+@keyframes closepapel{
+    0%{
+        top: -120px;
+    }
+    100%{
+        top: 0;
+    }
+}
+.heart{
+    display: none;
+    position: absolute;
+    top: 25%;
+    left: 45%;
+    margin: auto;
+    font-size: 3rem;
+    color: #fe3334;
+    animation: crecer 1s forwards;
+}
+@keyframes crecer{
+    0%{
+        scale: 1;
+        opacity: 1;
+    }
+    100%{
+        scale: 3;
+        opacity: 0;
+    }
+}
+span{
+    position: absolute;
+    pointer-events: none;
+    filter: drop-shadow(0 0 15px rgba(0, 0, 0, 0.5));
+    animation: fadeinout 1s linear infinite;
+    width: auto;
+}
+@keyframes fadeinout{
+    0%{
+        opacity: 0;
+    }
+    20%, 80%{
+        opacity: 1;
+    }
+}
+span::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(imagen/Heart-Symbol-PNG-Free-Image.png);
+    background-size: cover;
+    animation: moveshape 1s linear infinite;
+}
+@keyframes mevshape{
+    0%{
+        transform: translate(0) rotate(0deg);
+    }
+    100%{
+        transform: translate(300px) rotate(360deg);
+    }
+}

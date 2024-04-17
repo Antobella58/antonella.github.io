@@ -1,0 +1,317 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #3f0303;
+}
+.menu{
+    position: absolute;
+    top: 0px;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+h1{
+    position: relative;
+    margin: -927px 0 0 18px;
+}
+.amor{
+    position: absolute;
+    right: 920px;
+    bottom: 360px;
+    color: #b40f0f;
+    font-size: 50px;
+}
+p{
+    color: #d31313;
+    box-shadow: -10px 15px 100px #f20044;
+}
+.primera{
+    position: absolute;
+    right: 950px;
+    bottom: 180px;
+    font-size: 22px;
+}
+.segunda{
+    position: absolute;
+    right: 1000px;
+    bottom: 200px;
+    font-size: 22px;
+}
+.tercera{
+    position: absolute;
+    right: 1050px;
+    bottom: 220px;
+    font-size: 22px;
+}
+.cuarta{
+    position: absolute;
+    right: 1100px;
+    bottom: 238px;
+    font-size: 22px;
+}
+.quinta{
+    position: absolute;
+    right: 1150px;
+    bottom: 255px;
+    font-size: 22px;
+}
+.sexta{
+    position: absolute;
+    right: 1200px;
+    bottom: 270px;
+    font-size: 22px;
+}
+.septima{
+    position: absolute;
+    right: 1200px;
+    bottom: 295px;
+    font-size: 22px;
+}
+.octava{
+    position: absolute;
+    right: 1230px;
+    bottom: 320px;
+    font-size: 22px;
+}
+.novena{
+    position: absolute;
+    right: 1240px;
+    bottom: 340px;
+    font-size: 22px;
+}
+.decima{
+    position: absolute;
+    right: 1255px;
+    bottom: 360px;
+    font-size: 22px;
+}
+.decima1{
+    position: absolute;
+    right: 1255px;
+    bottom: 390px;
+    font-size: 22px;
+}
+.decima2{
+    position: absolute;
+    right: 1250px;
+    bottom: 410px;
+    font-size: 22px;
+}
+.decima3{
+    position: absolute;
+    right: 1250px;
+    bottom: 435px;
+    font-size: 22px;
+}
+.decima4{
+    position: absolute;
+    right: 1240px;
+    bottom: 455px;
+    font-size: 22px;
+}
+.decima5{
+    position: absolute;
+    right: 1230px;
+    bottom: 470px;
+    font-size: 22px;
+}
+.decima6{
+    position: absolute;
+    right: 1230px;
+    bottom: 490px;
+    font-size: 22px;
+}
+.decima7{
+    position: absolute;
+    right: 1230px;
+    bottom: 510px;
+    font-size: 22px;
+}
+.decima8{
+    position: absolute;
+    right: 1210px;
+    bottom: 530px;
+    font-size: 22px;
+}
+.decima9{
+    position: absolute;
+    right: 1180px;
+    bottom: 558px;
+    font-size: 22px;
+}
+.vigesima{
+    position: absolute;
+    right: 1150px;
+    bottom: 580px;
+    font-size: 22px;
+}
+.vigesima1{
+    position: absolute;
+    right: 1090px;
+    bottom: 560px;
+    font-size: 22px;
+}
+.vigesima2{
+    position: absolute;
+    right: 1060px;
+    bottom: 540px;
+    font-size: 22px;
+}
+.vigesima3{
+    position: absolute;
+    right: 1040px;
+    bottom: 520px;
+    font-size: 22px;
+}
+.vigesima4{
+    position: absolute;
+    right: 1020px;
+    bottom: 500px;
+    font-size: 22px;
+}
+.vigesima5{
+    position: absolute;
+    right: 1000px;
+    bottom: 480px;
+    font-size: 22px;
+}
+.vigesima6{
+    position: absolute;
+    right: 970px;
+    bottom: 460px;
+    font-size: 22px;
+}
+
+
+.primera-1{
+    position: absolute;
+    right: 900px;
+    bottom: 200px;
+    font-size: 22px;
+}
+.segunda-1{
+    position: absolute;
+    right: 860px;
+    bottom: 220px;
+    font-size: 22px;
+}
+.tercera-1{
+    position: absolute;
+    right: 820px;
+    bottom: 245px;
+    font-size: 22px;
+}
+.cuarta-1{
+    position: absolute;
+    right: 720px;
+    bottom: 270px;
+    font-size: 22px;
+}
+.quinta-1{
+    position: absolute;
+    right: 760px;
+    bottom: 290px;
+    font-size: 22px;
+}
+.sexta-1{
+    position: absolute;
+    right: 690px;
+    bottom: 310px;
+    font-size: 22px;
+}
+.septima-1{
+    position: absolute;
+    right: 730px;
+    bottom: 335px;
+    font-size: 22px;
+}
+.octava-1{
+    position: absolute;
+    right: 710px;
+    bottom: 360px;
+    font-size: 22px;
+}
+.novena-1{
+    position: absolute;
+    right: 710px;
+    bottom: 385px;
+    font-size: 22px;
+}
+.decima-1{
+    position: absolute;
+    right: 620px;
+    bottom: 410px;
+    font-size: 22px;
+}
+.decima1-1{
+    position: absolute;
+    right: 620px;
+    bottom: 430px;
+    font-size: 22px;
+}
+.decima2-1{
+    position: absolute;
+    right: 650px;
+    bottom: 450px;
+    font-size: 22px;
+}
+.decima3-1{
+    position: absolute;
+    right: 680px;
+    bottom: 470px;
+    font-size: 22px;
+}
+.decima4-1{
+    position: absolute;
+    right: 700px;
+    bottom: 490px;
+    font-size: 22px;
+}
+.decima5-1{
+    position: absolute;
+    right: 720px;
+    bottom: 510px;
+    font-size: 22px;
+}
+.decima6-1{
+    position: absolute;
+    right: 750px;
+    bottom: 530px;
+    font-size: 22px;
+}
+.decima7-1{
+    position: absolute;
+    right: 780px;
+    bottom: 550px;
+    font-size: 22px;
+}
+.decima8-1{
+
+    position: absolute;
+    right: 800px;
+    bottom: 530px;
+    font-size: 22px;
+}
+.decima9-1{
+    position: absolute;
+    right: 850px;
+    bottom: 510px;
+    font-size: 22px;
+}
+.vigesima-1{
+    position: absolute;
+    right: 910px;
+    bottom: 490px;
+    font-size: 22px;
+}
+.vigesima1-1{
+    position: absolute;
+    right: 920px;
+    bottom: 480px;
+    font-size: 22px;
+}

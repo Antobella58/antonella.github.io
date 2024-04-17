@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background: #f0a4d9;
+}
+.menu{
+    position: absolute;
+    top: 0px;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+h1{
+    position: absolute;
+    margin: -927px 0 0 18px;
+}
+h2{
+    position: absolute;
+    top: 760px;
+    left: 740px;
+
+}
+.imagen img{
+    width: 500px;
+    display: block;
+    align-items: center;
+    position: absolute;
+    top: 150px;
+    left: 750px;
+
+}

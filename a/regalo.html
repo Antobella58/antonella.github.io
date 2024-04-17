@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regalito</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="regalo.css">
+
+</head>
+<body>
+    <script>
+        document.addEventListener('mousemove', function(e) {
+           let body= document.querySelector('body');
+           let heart= document.createElement('span');
+           let x= e.offsetX;
+           let y= e.offsetY;
+           heart.style.left= x+'px';
+           heart.style.top= y+'px';
+  
+           let size= Math.random()*80;
+           heart.style.width= 20+size+'px';
+           heart.style.height= 20+size+'px';
+  
+           let transformValue= Math.random() *360;
+           heart.style.transform= 'rotate('+ transformValue+'deg)';
+  
+           body.appendChild(heart);
+           
+           setTimeout(function(){
+              heart.remove();
+           },1000)
+           
+        })
+    </script>
+    <header>
+        <div class="content">
+            <div class="menu container">
+                <a href="index.html" class="logo"></a>
+                <input type="checkbox" id="menu" />
+                <label for="menu">
+                    <img src="imagen/menu.png" class="menu" alt="">
+                </label>
+                <nav class="navbar">
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="heart.html">Corazoncito</a></li>
+                        <li><a href="carta.html">Cartita</a></li>
+                        <li><a href="flor.html">Florecita</a></li>
+                        <li><a href="regalo.html">Regalito</a></li>
+                        <li><a href="quiz.html">Preguntita</a></li>
+                    </ul>
+
+                </nav>
+
+            </div>
+
+        </div>
+    </header>
+    <div class="giftcontainer">
+        <div class="gift">
+            <input type="checkbox" id="click">
+            <label for="click" class="click"></label>
+            <div class="wishes">💗</div>
+            <div class="wishes1">💗</div>
+            <div class="wishes2">💗</div>
+            <div class="wishes3">💗</div>
+            <div class="wishes4">💗</div>
+            <div class="wishes5">💗</div>
+            <div class="wishes6">💗</div>
+            <div class="wishes7">💗</div>
+        </div>
+    </div>
+    <h1>Regalo</h1>
+    <a href="https://www.youtube.com/watch?v=4ZadjZXxyNU&ab_channel=NanpaBasicoOficial" class="link">Apreteme :3</a>
+</body>
+</html>

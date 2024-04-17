@@ -1,0 +1,386 @@
+body{
+    background: rgb(12, 5, 46);
+}
+.menu{
+    position: absolute;
+    top: 0px;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+h1{
+    position: relative;
+    margin: -927px 0 0 18px;
+}
+.link{
+    color: #cf0d0d;
+    position: absolute;
+    top: 800px;
+    left: 100px;
+    font-size: 30px;
+
+}
+span{
+    position: absolute;
+    pointer-events: none;
+    filter: drop-shadow(0 0 15px rgba(0, 0, 0, 0.5));
+    animation: fadeinout 1s linear infinite;
+    width: auto;
+}
+@keyframes fadeinout{
+    0%{
+        opacity: 0;
+    }
+    20%, 80%{
+        opacity: 1;
+    }
+}
+span::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(imagen/Heart-Symbol-PNG-Free-Image.png);
+    background-size: cover;
+    animation: moveshape 1s linear infinite;
+}
+@keyframes mevshape{
+    0%{
+        transform: translate(0) rotate(0deg);
+    }
+    100%{
+        transform: translate(300px) rotate(360deg);
+    }
+}
+.container{
+    min-height: 10px;
+    background: linear-gradient(
+        90deg,
+        rgb(70, 23, 156)0%,
+        rgb(105, 71, 168)70%
+
+    );
+}
+.petalos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.petalo{
+    width: 150px;
+    height: 150px;
+    z-index: 10;
+}
+.container-flor{
+    padding-top: 4%;
+}
+#petalo1{
+    position: absolute;
+    border-radius: 0px 100px 0px 100px;
+    background: linear-gradient(160deg, #ee0979 0%, #ff6a00 100%);
+    left: 620px;
+    top: 400px;
+    transform: rotate(-20deg);
+    animation: 2s scale linear;
+}
+#petalo2{
+    position: absolute;
+    border-radius: 100px 0px 100px 0px;
+    background: linear-gradient(10deg, #ee0979 0%, #ff6a00 100%);
+    left: 760px;
+    top: 350px;
+    transform: rotate(-20deg);
+    animation: 2s scale linear;
+}
+#petalo3{
+    position: absolute;
+    width: 170px;
+    height: 170px;
+    border-radius: 1000px 100px 900px 1000px;
+    background: linear-gradient(160deg, #ee0979 0%, #ff6a00 100%);
+    left: 675px;
+    top: 360px;
+    transform: rotate(-65deg);
+    animation: 2s scale linear;
+}
+.tallo{
+    position: absolute;
+    width: 15px;
+    height: 550px;
+    background: linear-gradient(160deg, #1e4e2d 50%, #021b06 100%);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    border-radius: 100px 1000px 1000px 0px;
+    transform: rotate(-25deg);
+    left: 850px;
+    top: 390px;
+    animation: 2s scale linear;
+
+}
+@keyframes scale{
+    0%{
+        scale: 0.1;
+    }
+    100%{
+        scale: 1;
+    }
+}
+
+.petalos1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.petalo1{
+    width: 150px;
+    height: 150px;
+    z-index: 10;
+}
+#petalo4{
+    position: absolute;
+    border-radius: 0px 100px 0px 100px;
+    background: linear-gradient(160deg, #b4114f 0%, #ff6a00 100%);
+    left: 960px;
+    top: 150px;
+    animation: 2s scale linear;
+}
+#petalo5{
+    position: absolute;
+    border-radius: 100px 0px 100px 0px;
+    background: linear-gradient(10deg, #b4114f 0%, #ff6a00 100%);
+    left: 1110px;
+    top: 150px;
+    animation: 2s scale linear;
+}
+#petalo6{
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    border-radius: 1000px 100px 900px 1000px;
+    background: linear-gradient(160deg, #b4114f 0%, #ff6a00 100%);
+    left: 1020px;
+    top: 120px;
+    transform: rotate(-50deg);
+    animation: 2s scale linear;
+}
+.tallo1{
+    position: absolute;
+    width: 15px;
+    height: 700px;
+    background: linear-gradient(160deg, #1e4e2d 50%, #021b06 100%);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    border-radius: 100px 1000px 1000px 0;
+    left: 1100px;
+    top: 200px;
+    animation: 2s scale linear;
+
+}
+
+
+.petalos2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.petalo2{
+    width: 150px;
+    height: 150px;
+    z-index: 10;
+}
+#petalo7{
+    position: absolute;
+    border-radius: 0px 100px 0px 100px;
+    background: linear-gradient(160deg, #b4114f 0%, #ff6a00 100%);
+    left: 1350px;
+    top: 300px;
+    transform: rotate(20deg);
+    animation: 2s scale linear;
+}
+#petalo8{
+    position: absolute;
+    border-radius: 100px 0px 100px 0px;
+    background: linear-gradient(10deg, #b4114f 0%, #ff6a00 100%);
+    left: 1480px;
+    top: 350px;
+    transform: rotate(20deg);
+    animation: 2s scale linear;
+}
+#petalo9{
+    position: absolute;
+    width: 170px;
+    height: 170px;
+    border-radius: 1000px 100px 900px 1000px;
+    background: linear-gradient(160deg, #b4114f 0%, #ff6a00 100%);
+    left: 1400px;
+    top: 310px;
+    transform: rotate(-20deg);
+    animation: 2s scale linear;
+}
+.tallo2{
+    position: absolute;
+    width: 15px;
+    height: 550px;
+    background: linear-gradient(160deg, #1e4e2d 50%, #021b06 100%);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    border-radius: 100px 1000px 1000px 0;
+    transform: rotate(25deg);
+    left: 1350px;
+    top: 400px;
+    animation: 2s scale linear;
+
+}
+.hojas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hoja{
+    width: 100px;
+    height: 100px;
+    z-index: 10;
+}
+#hoja1{
+    position: absolute;
+    border-radius: 0px 100px 0px 100px;
+    background: linear-gradient(160deg, #1e4e2d 50%, #276e53 100%);
+    left: 750px;
+    top: 600px;
+    transform: rotate(-15deg);
+    animation: 2s scale linear;
+}
+#hoja2{
+    position: absolute;
+    border-radius: 0px 100px 0px 100px;
+    background: linear-gradient(160deg, #1e4e2d 50%, #276e53 100%);
+    left: 890px;
+    top: 700px;
+    transform: rotate(50deg);
+    animation: 2s scale linear;
+}
+#hoja3{
+    position: absolute;
+    border-radius: 0px 100px 0px 100px;
+    background: linear-gradient(160deg, #1e4e2d 50%, #276e53 100%);
+    left: 1010px;
+    top: 350px;
+    transform: rotate(5deg);
+    animation: 2s scale linear;
+}
+#hoja4{
+    position: absolute;
+    border-radius: 0px 100px 0px 100px;
+    background: linear-gradient(160deg, #1e4e2d 50%, #276e53 100%);
+    left: 1010px;
+    top: 610px;
+    transform: rotate(-10deg);
+    animation: 2s scale linear;
+}
+#hoja5{
+    position: absolute;
+    border-radius: 0px 100px 0px 100px;
+    background: linear-gradient(160deg, #1e4e2d 50%, #276e53 100%);
+    left: 1105px;
+    top: 600px;
+    transform: rotate(90deg);
+    animation: 2s scale linear;
+}
+#hoja6{
+    position: absolute;
+    border-radius: 0px 100px 0px 100px;
+    background: linear-gradient(160deg, #1e4e2d 50%, #276e53 100%);
+    left: 1380px;
+    top: 600px;
+    transform: rotate(-50deg);
+    animation: 2s scale linear;
+}
+.burbuja{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: #fff;
+    opacity: .3;
+    position: absolute;
+    bottom: 0;
+    left: 5%;
+    animation: burbujas 3s linear infinite;
+}
+.burbuja:nth-child(1){
+    width: 80px;
+    height: 80px;
+    left: 5%;
+    animation-duration: 3s;
+    animation-delay: 3s;
+}
+.burbuja:nth-child(2){
+    width: 40px;
+    height: 40px;
+    left: 35%;
+    animation-duration: 3s;
+    animation-delay: 5s;
+}
+.burbuja:nth-child(3){
+    width: 20px;
+    height: 20px;
+    left: 45%;
+    animation-duration: 1.3s;
+    animation-delay: 7s;
+}
+.burbuja:nth-child(4){
+    width: 60px;
+    height: 60px;
+    left: 85%;
+    animation-duration: 2.3s;
+    animation-delay: 5s;
+}
+.burbuja:nth-child(5){
+    width: 80px;
+    height: 80px;
+    left: 35%;
+    animation-duration: 3.4s;
+    animation-delay: 4s;
+}
+.burbuja:nth-child(6){
+    width: 50px;
+    height: 50px;
+    left: 35%;
+    animation-duration: 1.6s;
+    animation-delay: 1s;
+}
+.burbuja:nth-child(7){
+    width: 20px;
+    height: 20px;
+    left: 35%;
+    animation-duration: 6s;
+    animation-delay: 5s;
+}
+.burbuja:nth-child(8){
+    width: 70px;
+    height: 70px;
+    left: 35%;
+    animation-duration: 4s;
+    animation-delay: 3s;
+}
+.burbuja:nth-child(9){
+    width: 20px;
+    height: 20px;
+    left: 35%;
+    animation-duration: 3s;
+    animation-delay: 5s;
+}
+@keyframes burbujas{
+    0%{
+        bottom: 0;
+        opacity: 0;
+    }
+    30%{
+        transform: translateX(30px);
+    }
+    50%{
+        opacity: .4;
+    }
+    100%{
+        bottom: 100vh;
+        opacity: 0;
+    }
+}

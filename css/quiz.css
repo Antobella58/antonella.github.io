@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background: #f0a4d9;
+}
+.menu{
+    position: absolute;
+    top: 0px;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+h1{
+    position: absolute;
+    margin: -927px 0 0 18px;
+}
+
+
+.containera{
+    width: 100vh;
+    height: 100vh;
+    text-align: center;
+}
+p{
+    font-size: xx-large;
+    padding: 30%;
+    position: absolute;
+    top: 50px;
+    left: 250px;
+}
+.yesbtn{
+    position: absolute;
+    top: 700px;
+    left: 850px;
+    background: #e0dddd;
+    width: 80px;
+    height: 30px;
+}
+#nobtn{
+    width: 80px;
+    height: 35px;
+    position: absolute;
+    top: 700px;
+    left: 1000px;
+
+}
+.imagens img{
+    width: 400px;
+    align-items: center;
+    position: absolute;
+    top: 200px;
+    left: 800px;
+}
+
+
+
+span{
+    position: absolute;
+    pointer-events: none;
+    filter: drop-shadow(0 0 15px rgba(0, 0, 0, 0.5));
+    animation: fadeinout 1s linear infinite;
+    width: auto;
+}
+@keyframes fadeinout{
+    0%{
+        opacity: 0;
+    }
+    20%, 80%{
+        opacity: 1;
+    }
+}
+span::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(imagen/Heart-Symbol-PNG-Free-Image.png);
+    background-size: cover;
+    animation: moveshape 1s linear infinite;
+}
+@keyframes mevshape{
+    0%{
+        transform: translate(0) rotate(0deg);
+    }
+    100%{
+        transform: translate(300px) rotate(360deg);
+    }
+}
